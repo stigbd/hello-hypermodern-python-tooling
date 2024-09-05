@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hello-poetry-and-nox"
+version = "0.1.0"
+description = "A demo project to showcase use of poetry and nox"
+authors = ["Stig B. Dørmænen <stigbd@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "hello_poetry_and_nox" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = { extras = ["standard"], version = "^0.112.3" }
+
+
+[tool.poetry.group.dev.dependencies]
+nox = "^2024.4.15"
+nox-poetry = "^1.0.3"
+pytest = "^8.3.2"
+httpx = "^0.27.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
