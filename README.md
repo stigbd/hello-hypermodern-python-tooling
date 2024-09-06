@@ -1,6 +1,6 @@
 # hello-hypermodern-python-tooling
 
-A small projec to play with the toolchain outlined in the orignal article series [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)[^1].
+A small project to play with the toolchain outlined in the orignal article series [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)[^1].
 
 A "postmodern" and much simpler toolchain can now be built around [uv](https://github.com/astral-sh/uv)[^2].
 
